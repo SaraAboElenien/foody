@@ -1,0 +1,38 @@
+/* Recipe.module.css */
+.recipeImage {
+    transition: transform 0.3s ease;
+  }
+  
+  .recipeImage:hover {
+    transform: scale(1.02);
+  }
+  
+  .badge {
+    font-weight: 500;
+    padding: 0.5em 1em;
+  }
+  
+  .ingredientList li {
+    transition: background-color 0.2s ease;
+  }
+  
+  .ingredientList li:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .instructionStep {
+    border-left: 3px solid #dee2e6;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s ease;
+  }
+  
+  .instructionStep:hover {
+    border-left-color: #0d6efd;
+  }
+  
+  @media (max-width: 768px) {
+    .display-5 {
+      font-size: 2rem;
+    }
+  }

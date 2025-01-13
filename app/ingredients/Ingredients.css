@@ -1,0 +1,32 @@
+.ingredient
+{
+    /* margin-top: 100px; */
+    padding: 20px 0;
+    background-image: linear-gradient(rgba(175, 167, 167, 0.537),rgba(0, 0, 0, 0.537));
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.ingredient .row
+{
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+article
+{
+    cursor: pointer;
+}
+.one-ingredient
+{
+   background-image: linear-gradient( rgba(229, 43, 52, 0.700) ,rgba(0, 0, 0, 0.651));
+   height: 100%;
+   width: 100%;
+   bottom: -100%;
+   
+   transition: .5s;
+   
+ }
+article:hover .one-ingredient
+{
+    bottom: 0px;
+} 

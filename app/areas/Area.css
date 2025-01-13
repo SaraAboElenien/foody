@@ -1,0 +1,36 @@
+.area-content {
+  padding: 20px 0;
+  background-image: linear-gradient(
+    rgba(175, 167, 167, 0.537),
+    rgba(0, 0, 0, 0.537)
+  );
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.area-content .row {
+  background: transparent;
+  backdrop-filter: blur(20px);
+}
+
+.list-unstyled {
+  text-decoration: none;
+}
+
+article {
+  cursor: pointer;
+}
+.one-area {
+  background-image: linear-gradient(
+    rgba(229, 43, 52, 0.7),
+    rgba(0, 0, 0, 0.651)
+  );
+  height: 100%;
+  width: 100%;
+  bottom: -100%;
+
+  transition: 0.5s;
+}
+article:hover .one-area {
+  bottom: 0px;
+}

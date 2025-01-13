@@ -1,0 +1,21 @@
+.details {
+  background-image: linear-gradient(
+    rgba(175, 167, 167, 0.537),
+    rgba(0, 0, 0, 0.537)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 10px 0;
+  color: rgb(31, 30, 30);
+}
+.details .container .details {
+  background: transparent;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  padding-bottom: 40px;
+}
+.details .container .recipes div {
+  letter-spacing: 2px;
+  margin: 5px;
+}
